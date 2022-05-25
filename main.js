@@ -1,6 +1,5 @@
-const Block = require("./Block").default;
-const Blockchain = require("./Blockchain").default;
-const Transaction = require("./Transaction").default;
+const { Blockchain } = require("./Blockchain");
+const { Transaction } = require("./Transaction");
 
 let bitcoin = new Blockchain();
 

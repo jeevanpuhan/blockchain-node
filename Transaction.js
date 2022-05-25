@@ -6,4 +6,4 @@ class Transaction {
 	}
 }
 
-exports.default = Transaction;
+module.exports.Transaction = Transaction;

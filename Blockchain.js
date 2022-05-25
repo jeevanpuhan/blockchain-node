@@ -1,5 +1,5 @@
-const Block = require("./Block").default;
-const Transaction = require("./Transaction").default;
+const { Block } = require("./Block");
+const { Transaction } = require("./Transaction");
 
 class Blockchain {
 	constructor() {
@@ -79,4 +79,4 @@ class Blockchain {
 	}
 }
 
-exports.default = Blockchain;
+module.exports.Blockchain = Blockchain;

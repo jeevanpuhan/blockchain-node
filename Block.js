@@ -31,4 +31,4 @@ class Block {
 	}
 }
 
-exports.default = Block;
+module.exports.Block = Block;
