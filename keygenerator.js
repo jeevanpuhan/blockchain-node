@@ -7,6 +7,8 @@ const privateKey = key.getPrivate("hex");
 
 console.log();
 console.log("Private Key: ", privateKey);
+console.log("Private Key Length: ", privateKey.length);
 
 console.log();
 console.log("Public Key: ", publicKey);
+console.log("Public Key Length: ", publicKey.length);
