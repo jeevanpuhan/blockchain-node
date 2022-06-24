@@ -2,11 +2,13 @@
   "name": "blockchain-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "src/Blockchain.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jeevan",
+  "homepage": "https://github.com/jeevanpuhan/blockchain-node",
+  "repository": "github:jeevanpuhan/blockchain-node",
   "license": "ISC",
   "dependencies": {
     "crypto-js": "^4.1.1",
